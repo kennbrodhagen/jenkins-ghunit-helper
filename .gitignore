@@ -1,15 +1,23 @@
-# Xcode
-build/*
-*.pbxuser
-!default.pbxuser
+# xcode noise
 *.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
+*.pbxuser
+*.perspective
 *.perspectivev3
-!default.perspectivev3
-*.xcworkspace
-!default.xcworkspace
-xcuserdata
+*.pyc
+*~.nib/
+*.xcuserdatad
+xcuserdatad/*
+build/*
+
+# Textmate - if you build your xcode projects with it
+*.tm_build_errors
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
 profile
-*.moved-aside
+
+# mercurial
+.hg/*
